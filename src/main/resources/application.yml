@@ -5,11 +5,13 @@ spring:
     name: eureka1
 eureka:
   instance:
-    hostname: eureka1
+    hostname: localhost
   client:
     #是否将自己当做客户端注册到服务中心,为true注册，false不注册
     register-with-eureka: false
     #是否可以从eureka上获取注册信息
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://eureka1:8761/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+
