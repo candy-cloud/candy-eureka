@@ -11,7 +11,7 @@
     <groupId>com.fintech.cloud</groupId>
     <artifactId>fintech-eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>fintech-eureka</name>
+    <name>candy-eureka</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -59,7 +59,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <finalName>fintech-eureka</finalName>
+        <finalName>candy-eureka</finalName>
 
     </build>
 </project>
