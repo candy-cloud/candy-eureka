@@ -1,4 +1,4 @@
-package com.fintech.cloud.fintecheureka;
+package com.candy.cloud;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
